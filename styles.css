@@ -13,13 +13,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+#face{
     display: block;
     margin: auto;
     width: 400px;
     height: 400px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#logo{
+    float: left;
+    padding-left: 50px;
+    width: 25px;
+    height: 25px;
+    margin: 25px;
+    
 }
 
 #name{
