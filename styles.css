@@ -1,0 +1,92 @@
+:root{
+   --headingColor: blue;
+   --textColor: white;
+   --activeColor: blue;
+   --hoverColor: blue;
+   --barColor: orange;
+}
+
+body{
+    background-color: black;
+    color: var(--textColor);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#name{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.active {
+    background-color: var(--activeColor);
+    color: var(--textColor);
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+nav li{
+    flex-grow: 1;
+    background-color: var(--barColor);
+    text-align: center;
+    justify-content: center;
+}
+
+nav li:hover{
+    background-color: var(--activeColor);
+    color: var(--textColor);
+}
+
+a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--barColor);
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+#technologyList,#workExperience, #projects, #download {
+    padding-left: 50px;
+}
+
+#educationExperience{
+    padding-left: 50px;
+}
+
+#download a{
+    color: yellow;
+}
+
+#download h2{
+    color: orange;
+}
+
+h2{
+    color:var(--headingColor);
+}
